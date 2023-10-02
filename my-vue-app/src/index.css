@@ -1,0 +1,49 @@
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+}
+
+body {
+  margin: 0;
+  display: flex;
+  min-width: 320px;
+  min-height: 100vh;
+}
+
+.box h3 {
+  font-size: 3.2em;
+  line-height: 1.1;
+  margin-left: 40%;
+}
+.box h5 {
+  font-size: 1.5em;
+  line-height: 1;
+}
+.user li {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  background: var(--white);
+  padding: 1rem 2rem;
+  text-align: left;
+  border-radius: var(--borderRadius);
+  background-color: wheat;
+  margin: 4% 4%;
+}
+.user img {
+  height: 100px;
+  padding: 20px;
+  border: 2px solid rgb(238, 235, 235);
+  border-radius: 100px;
+}
+.user div {
+  align-items: center;
+  margin: 2%;
+}
+.user a {
+  text-decoration: none;
+}
+.user a:hover {
+  color: blueviolet;
+}
